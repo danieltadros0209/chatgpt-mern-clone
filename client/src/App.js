@@ -16,7 +16,7 @@ import ScifiImage from "./pages/ScifiImage";
 import Footer from "./components/Footer";
 
 function App() {
-  // set theme
+  // change theme
   const theme = useMemo(() => createTheme(themeSettings()), []);
 
   return (
