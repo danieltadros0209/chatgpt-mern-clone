@@ -15,6 +15,7 @@ import JsConverter from "./pages/JsConverter";
 import ScifiImage from "./pages/ScifiImage";
 import Footer from "./components/Footer";
 
+// updated this app.js file - review commit
 function App() {
   // change theme
   const theme = useMemo(() => createTheme(themeSettings()), []);
