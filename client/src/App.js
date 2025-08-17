@@ -27,6 +27,7 @@ function App() {
         <Navbar />
         <Toaster />
         <Routes>
+          {/* routes to load pages */}
           <Route path="/" element={<Homepage />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
