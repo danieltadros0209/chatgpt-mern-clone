@@ -29,6 +29,7 @@ function App() {
         <Routes>
           {/* routes to load pages */}
           <Route path="/" element={<Homepage />} />
+          {/* this is the register route */}
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/summary" element={<Summary />} />
