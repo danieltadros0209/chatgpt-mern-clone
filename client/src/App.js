@@ -31,6 +31,7 @@ function App() {
           <Route path="/" element={<Homepage />} />
           {/* this is the register route */}
           <Route path="/register" element={<Register />} />
+          {/* this is the login route */}
           <Route path="/login" element={<Login />} />
           <Route path="/summary" element={<Summary />} />
           <Route path="/paragraph" element={<Paragraph />} />
