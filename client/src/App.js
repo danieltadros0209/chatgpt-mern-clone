@@ -33,6 +33,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           {/* this is the login route */}
           <Route path="/login" element={<Login />} />
+          {/* this is the summary route */}
           <Route path="/summary" element={<Summary />} />
           <Route path="/paragraph" element={<Paragraph />} />
           <Route path="/chatbot" element={<ChatBot />} />
