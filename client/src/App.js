@@ -35,6 +35,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           {/* this is the summary route */}
           <Route path="/summary" element={<Summary />} />
+          {/* this is the  paragraph route*/}
           <Route path="/paragraph" element={<Paragraph />} />
           <Route path="/chatbot" element={<ChatBot />} />
           <Route path="/js-converter" element={<JsConverter />} />
