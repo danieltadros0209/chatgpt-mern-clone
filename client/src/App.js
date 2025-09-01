@@ -37,6 +37,7 @@ function App() {
           <Route path="/summary" element={<Summary />} />
           {/* this is the  paragraph route*/}
           <Route path="/paragraph" element={<Paragraph />} />
+          {/* this is the chatbot */}
           <Route path="/chatbot" element={<ChatBot />} />
           <Route path="/js-converter" element={<JsConverter />} />
           <Route path="/scifi-image" element={<ScifiImage />} />
